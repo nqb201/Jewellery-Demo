@@ -1,0 +1,135 @@
+.footer-wrapper {
+  background-color: #173334;
+  color: #FFF;
+  padding: 40px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  position: relative;
+  font-family: Arial, sans-serif;
+  line-height: 2;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.subscribe-section1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-right: 50px;
+}
+
+.subscribe-section1 h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.subscribe-form1 {
+  display: flex;
+  width: 100%;
+}
+
+.subscribe-form1 input {
+  padding: 10px;
+  border: none;
+  border-radius: 30px 0 0 30px;
+  width: 70%;
+  background-color: #f2dfce;
+  font-family: 'Playfair Display', serif;
+}
+
+.subscribe-form1 button {
+  padding: 10px;
+  background-color: #091111;
+  color: #FFF;
+  border: none;
+  border-radius: 0 30px 30px 0;
+  cursor: pointer;
+  font-family: 'Playfair Display', serif;
+}
+
+.footer-nav, .footer-about, .footer-share {
+  flex: 1;
+}
+
+.footer-nav h3, .footer-about h3, .footer-share h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-nav ul, .footer-about ul, .footer-share ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-nav ul li, .footer-about ul li, .footer-share ul li {
+  margin-bottom: 5px;
+}
+
+.footer-nav ul li a, .footer-about ul li a, .footer-share ul li a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.footer-share ul {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-share ul li img {
+  width: 26px;
+  height: 26px;
+}
+
+.footer-bottom {
+  text-align: center;
+  font-size: 14px;
+  width: 100%;
+  position: relative;
+}
+
+.footer-bottom p {
+  display: flex;
+}
+
+.footer-policy {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  gap: 20px;
+  margin-right: 200px;
+}
+
+.footer-policy a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.footer-share ul {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-share a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 26px;
+  height: 26px;
+  border: 4px solid #f2dfce;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.footer-share img {
+  width: 20px;
+  height: 20px;
+}

@@ -1,0 +1,49 @@
+.subscribe-section {
+  background-color: #f2dfce;
+  padding: 50px 200px;
+  text-align: center;
+  border-radius: 8px;
+  font-family: 'Playfair Display', serif;
+}
+
+.subscribe-section h2 {
+  font-size: 24px;
+  color: #173334;
+  margin-bottom: 20px;
+}
+
+.subscribe-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.subscribe-image {
+  max-width: 40%;
+  height: auto;
+  border-radius: 8px;
+  margin-left: 330px;
+}
+
+.instagram-info {
+  text-align: right;
+  font-size: 16px;
+  color: #173334;
+}
+
+.instagram-info h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.instagram-info p {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.instagram-image {
+  max-width: 50px;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}

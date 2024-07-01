@@ -1,0 +1,23 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --first-font: 'Playfair Display', serif;
+    --second-font: 'Outfit', sans-serif;
+    --theme-color: #173334;
+    --second-color: #F2DFCE;
+    --border-color: #DDDDDD;
+    --black: #000000;
+    --white: #ffffff;
+    --h1: normal 600 51px/1.2 var(--first-font);
+    --h2: normal 600 41px/1.2 var(--first-font);
+    --h3: normal 600 32px/1.2 var(--first-font);
+    --h4: normal 600 22px/1.2 var(--first-font);
+    --h5: normal 600 20px/1.2 var(--first-font);
+    --h6: normal 600 18px/1.2 var(--first-font);
+    --common-text: normal 400 16px/1.4 var(--second-font);
+}

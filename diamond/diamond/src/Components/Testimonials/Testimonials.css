@@ -1,0 +1,111 @@
+.testimonials-section {
+  text-align: center;
+  background-color: #f2dfce;
+  font-family: 'Playfair Display', serif;
+}
+
+.testimonials-section h2 {
+  color: #173334;
+  font-size: 41px;
+}
+
+.testimonials-list-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  max-width: 1200px; /* Cố định chiều rộng để hiển thị 4 thẻ */
+  margin: auto;
+}
+
+.testimonials-list {
+  display: flex;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  width: 100%;
+  gap: 20px;
+  padding: 10px 0;
+  -ms-overflow-style: none; 
+  scrollbar-width: none;
+}
+
+.testimonial-card {
+  flex: 0 0 25%;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  padding: 20px;
+  box-sizing: border-box;
+  height: 450px; /* Cố định chiều cao cho thẻ */
+}
+
+.testimonial-card img {
+  width: 100%;
+  height: 250px; /* Cố định chiều cao cho ảnh */
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.testimonial-content {
+  padding: 10px 0;
+  text-align: left;
+}
+
+.testimonial-content span {
+  color: #173334;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.testimonial-content h3 {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #173334;
+}
+
+.testimonial-content p {
+  font-size: 16px;
+  color: #173334;
+}
+
+.testimonial-content button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background: #173334;
+  color: #f2dfce;
+  margin-top: 10px;
+}
+
+.testimonial-content button:hover {
+  background: #f2dfce;
+  color: #173334;
+}
+
+.scroll-button {
+  display: none; /* Ẩn nút theo mặc định */
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  color: #173334;
+}
+
+.testimonials-list-container:hover .scroll-button {
+  display: block; /* Hiển thị nút khi hover vào khu vực */
+}
+
+
+.scroll-button.left {
+  left: 0;
+}
+
+.scroll-button.right {
+  right: 0;
+}
